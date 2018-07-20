@@ -102,8 +102,8 @@ const path = require('path'),
       chuncks:[]
     }),
     new HtmlWebpackPlugin({
-      filename: 'views/tabs.html',
-      template: 'views/tabs.html',
+      filename: 'views/menu/index.html',
+      template: 'views/menu/index.html',
       inject: false,
       chuncks:[]
     })

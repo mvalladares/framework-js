@@ -5,3 +5,4 @@ import '../scss/app.scss';
 import $ from 'jquery'
 import bootstrap from '../scss/addons/bootstrap-sass/assets/javascripts/bootstrap'
 import './fn.js'
+import './main.js'
