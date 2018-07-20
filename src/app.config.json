@@ -1,0 +1,58 @@
+{
+    "server": {
+        "version": 1.0
+    },
+    "libs": [
+        {
+            "id": 1,
+            "title": "Underscore.js",
+            "description": "--",
+            "url": "https://underscorejs.org/",
+            "img": "assets/img/underscore.png"
+        },
+        {
+            "id": 2,
+            "title": "Numeral.js",
+            "description": "--",
+            "url": "http://numeraljs.com/",
+            "img": "assets/img/numeral.png"
+        },
+        {
+            "id": 3,
+            "title": "Moment.js",
+            "description": "--",
+            "url": "https://momentjs.com/",
+            "img": "assets/img/moment.png"
+        },
+        {
+            "id": 4,
+            "title": "Jquery.js",
+            "description": "--",
+            "url": "https://jquery.com/download/",
+            "img": "assets/img/moment.png"
+        }
+    ],
+    "css": [
+        {
+            "id": 1,
+            "title": "Bootstrap 3.3",
+            "description": "--",
+            "url": "https://getbootstrap.com/docs/3.3/",
+            "img": "./assets/img/underscore.png"
+        },
+        {
+            "id": 2,
+            "title": "fontawesome 4.7",
+            "description": "--",
+            "url": "https://fontawesome.com/v4.7.0/",
+            "img": "./assets/img/numeral.png"
+        },
+        {
+            "id": 3,
+            "title": "Propeller.in",
+            "description": "--",
+            "url": "https://propeller.in/",
+            "img": "./assets/img/moment.png"
+        }
+    ]
+}
