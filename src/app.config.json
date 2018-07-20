@@ -32,6 +32,13 @@
             "titleType": "JavaScript"
         },
         {
+            "title": "Bootstrap.js",
+            "description": "--",
+            "url": "https://getbootstrap.com/docs/3.3/javascript/",
+            "type": "js",
+            "titleType": "JavaScript"
+        },
+        {
             "title": "Bootstrap 3.3",
             "description": "--",
             "url": "https://getbootstrap.com/docs/3.3/",

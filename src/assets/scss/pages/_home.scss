@@ -11,3 +11,10 @@
 .mbottom15{
     margin-bottom: 15px;
 }
+
+@media (min-width: 1200px)
+{
+.container {
+    width: 1360px;
+}
+}
