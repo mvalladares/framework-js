@@ -8,14 +8,14 @@ $(document).ready(function () {
 
     $.getJSON(require("../../app.config.json"), function (data) {
         config = data;
-        $.fn.getTemplate(config);
+        $.fn.getTemplate();
     });
 
     $.getJSON(require("../../mock.json"), function (data) {
         json = data;
     });
 
-    $.fn.getTemplate = function (config) {
+    $.fn.getTemplate = function () {
         $.get("views/menu/index.html?version=" + config.server.version, function (menu) {
             $.get("views/template.html?version=" + config.server.version, function (template) {
                 var html = "";
@@ -48,6 +48,10 @@ $(document).ready(function () {
     /*acciones*/
 
     $(document).on("click", ".filterMenu", function(){
+        if($(this).data("search") == "all"){
+            $.fn.getTemplate();
+            return false;
+        }
         $(".filterMenu").removeClass("active");
         $(this).addClass("active");
         $("[data-hide]").hide();

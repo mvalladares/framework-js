@@ -14,7 +14,7 @@ const path = require('path'),
   devServer: {
     compress: true,
     contentBase: path.resolve(__dirname, 'dist/assets/img'),
-    open: false,
+    open: true,
     port: 3000,
     stats: 'normal',
   },

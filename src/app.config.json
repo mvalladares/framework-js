@@ -8,56 +8,64 @@
             "description": "--",
             "url": "https://underscorejs.org/",
             "type": "js",
-            "titleType": "JavaScript"
+            "titleType": "JavaScript",
+            "panel": "primary"
         },
         {
             "title": "Numeral.js",
             "description": "--",
             "url": "http://numeraljs.com/",
             "type": "js",
-            "titleType": "JavaScript"
+            "titleType": "JavaScript",
+            "panel": "primary"
         },
         {
             "title": "Moment.js",
             "description": "--",
             "url": "https://momentjs.com/",
             "type": "js",
-            "titleType": "JavaScript"
+            "titleType": "JavaScript",
+            "panel": "primary"
         },
         {
             "title": "Jquery.js",
             "description": "--",
             "url": "https://jquery.com/download/",
             "type": "js",
-            "titleType": "JavaScript"
+            "titleType": "JavaScript",
+            "panel": "primary"
         },
         {
             "title": "Bootstrap.js",
             "description": "--",
             "url": "https://getbootstrap.com/docs/3.3/javascript/",
             "type": "js",
-            "titleType": "JavaScript"
+            "titleType": "JavaScript",
+            "panel": "primary"
         },
         {
             "title": "Bootstrap 3.3",
             "description": "--",
             "url": "https://getbootstrap.com/docs/3.3/",
             "type": "css",
-            "titleType": "UI"
+            "titleType": "UI",
+            "panel": "success"
         },
         {
             "title": "fontawesome 4.7",
             "description": "--",
             "url": "https://fontawesome.com/v4.7.0/",
             "type": "css",
-            "titleType": "UI"
+            "titleType": "UI",
+            "panel": "success"
         },
         {
             "title": "Propeller.in",
             "description": "--",
             "url": "https://propeller.in/",
             "type": "css",
-            "titleType": "UI"
+            "titleType": "UI",
+            "panel": "success"
         }
     ]
 }
