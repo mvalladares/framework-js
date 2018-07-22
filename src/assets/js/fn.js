@@ -1,6 +1,3 @@
-window._ = require('underscore');
-window.numeral = require('numeral');
-window.moment = require('moment');
 
 $(document).ready(function () {
     var config = [];
@@ -19,7 +16,7 @@ $(document).ready(function () {
         $.get("views/menu/index.html?version=" + config.server.version, function (menu) {
             $.get("views/template.html?version=" + config.server.version, function (template) {
                 var html = "";
-                $.each(_.uniq(config.libs, function (uniq) { return uniq.type; }), function (index, data) {
+                $.each(_.uniq(_.sortBy(config.libs, function(sort){ return sort.type}), function (uniq) { return uniq.type; }), function (index, data) {
                     var menuTmp = menu;
                     $.each(data, function (field, value) {
                         menuTmp = menuTmp.split("{{" + field + "}}").join(value);/*genera menu*/
@@ -30,7 +27,7 @@ $(document).ready(function () {
                 html =$.fn.htmlDiv(html, "col-lg-12 mbottom15 menu-nav");
 
                 var htmlContent = "";
-                $.each(config.libs, function (index, data) {
+                $.each(_.sortBy(config.libs, function(sort){ return sort.type}), function (index, data) {
                     var tmp = template;
                     $.each(data, function (field, value) {
                         tmp = tmp.split("{{" + field + "}}").join(value);/*genera contenido*/

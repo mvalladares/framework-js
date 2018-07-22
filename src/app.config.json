@@ -66,6 +66,32 @@
             "type": "css",
             "titleType": "UI",
             "panel": "success"
+        },
+        {
+            "title": "Charts.js",
+            "description": "--",
+            "url": " http://www.chartjs.org/",
+            "type": "js",
+            "titleType": "JavaScript",
+            "panel": "primary"
+        },
+        {
+            "title": "Select2.js",
+            "description": "--",
+            "url": "https://select2.org/",
+            "type": "js",
+            "titleType": "JavaScript",
+            "panel": "primary"
+        },
+        {
+            "title": "Image Mapster",
+            "description": "--",
+            "url": "http://outsharked.com/imagemapster/",
+            "type": "js",
+            "titleType": "JavaScript",
+            "panel": "primary"
         }
+        
+       
     ]
 }
