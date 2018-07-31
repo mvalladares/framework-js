@@ -106,6 +106,24 @@ const path = require('path'),
       template: 'views/menu/index.html',
       inject: false,
       chuncks:[]
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'framework.html',
+      template: 'framework.html',
+      inject: false,
+      chuncks:[]
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'views/global/_input.html',
+      template: 'views/global/_input.html',
+      inject: false,
+      chuncks:[]
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'views/global/_form.html',
+      template: 'views/global/_form.html',
+      inject: false,
+      chuncks:[]
     })
   ],
 };

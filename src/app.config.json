@@ -91,7 +91,1667 @@
             "titleType": "JavaScript",
             "panel": "primary"
         }
-        
-       
+    ],
+    "forms": [
+        {
+            "category": 1,
+            "title": "Autos, camionetas y 4x4",
+            "fields": [
+                {
+                    "id": "Categorias",
+                    "title": "Categoría",
+                    "selector": "#Categorias",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "NumPatente",
+                    "title": "Patente",
+                    "selector": "#NumPatente",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "tipovehiculo-type-box",
+                    "title": "Tipo Vehículo",
+                    "selector": "#tipovehiculo-type-box",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "marca",
+                    "title": "Marca",
+                    "selector": "#marca",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "modelo",
+                    "title": "Modelo",
+                    "selector": "#modelo",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "ano",
+                    "title": "Año",
+                    "selector": "#ano",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "version",
+                    "title": "Versión",
+                    "selector": "#version",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "carroceria-type-box",
+                    "title": "Carrocería",
+                    "selector": "#carroceria-type-box",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "puertas-type-box",
+                    "title": "Puertas",
+                    "selector": "#puertas-type-box",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "Transm",
+                    "title": "Transmisión",
+                    "selector": "#Transm",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "Edicion",
+                    "title": "Edición",
+                    "selector": "#Edicion",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "cPrecio",
+                    "title": "Precio",
+                    "selector": "#cPrecio",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "cilindarda-type-box",
+                    "title": "Cilindrada",
+                    "selector": "#cilindarda-type-box",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "potencia",
+                    "title": "Potencia",
+                    "selector": "#potencia",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "Color",
+                    "title": "Color",
+                    "selector": "#Color",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "Kilom",
+                    "title": "Kilometraje",
+                    "selector": "#Kilom",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "Motor",
+                    "title": "Motor",
+                    "selector": "#Motor",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "techo-type-box",
+                    "title": "Techo",
+                    "selector": "#techo-type-box",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "tipocombustible-type-box",
+                    "title": "Tipo Combustible",
+                    "selector": "#tipocombustible-type-box",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "#tipodireccion-type-box",
+                    "title": "Tipo Dirección",
+                    "selector": "#tipodireccion-type-box",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                }
+            ]
+        },
+        {
+            "category": 2,
+            "title": "Motos",
+            "fields": [
+                {
+                    "id": "Categorias",
+                    "title": "Categoría",
+                    "selector": "#Categorias",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "NumPatente",
+                    "title": "Patente",
+                    "selector": "#NumPatente",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "tipovehiculo-type-box",
+                    "title": "Tipo Vehículo",
+                    "selector": "#tipovehiculo-type-box",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "marca",
+                    "title": "Marca",
+                    "selector": "#marca",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "modelo",
+                    "title": "Modelo",
+                    "selector": "#modelo",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "ano",
+                    "title": "Año",
+                    "selector": "#ano",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "version",
+                    "title": "Versión",
+                    "selector": "#version",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "carroceria-type-box",
+                    "title": "Carrocería",
+                    "selector": "#carroceria-type-box",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "puertas-type-box",
+                    "title": "Puertas",
+                    "selector": "#puertas-type-box",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "Transm",
+                    "title": "Transmisión",
+                    "selector": "#Transm",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "Edicion",
+                    "title": "Edición",
+                    "selector": "#Edicion",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "cPrecio",
+                    "title": "Precio",
+                    "selector": "#cPrecio",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "cilindarda-type-box",
+                    "title": "Cilindrada",
+                    "selector": "#cilindarda-type-box",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "potencia",
+                    "title": "Potencia",
+                    "selector": "#potencia",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "Color",
+                    "title": "Color",
+                    "selector": "#Color",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "Kilom",
+                    "title": "Kilometraje",
+                    "selector": "#Kilom",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "Motor",
+                    "title": "Motor",
+                    "selector": "#Motor",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "techo-type-box",
+                    "title": "Techo",
+                    "selector": "#techo-type-box",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "tipocombustible-type-box",
+                    "title": "Tipo Combustible",
+                    "selector": "#tipocombustible-type-box",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "#tipodireccion-type-box",
+                    "title": "Tipo Dirección",
+                    "selector": "#tipodireccion-type-box",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                }
+            ]
+        },
+        {
+            "category": 4,
+            "title": "Camiones",
+            "fields": [
+                {
+                    "id": "Categorias",
+                    "title": "Categoría",
+                    "selector": "#Categorias",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "NumPatente",
+                    "title": "Patente",
+                    "selector": "#NumPatente",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "tipovehiculo-type-box",
+                    "title": "Tipo Vehículo",
+                    "selector": "#tipovehiculo-type-box",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "marca",
+                    "title": "Marca",
+                    "selector": "#marca",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "modelo",
+                    "title": "Modelo",
+                    "selector": "#modelo",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "ano",
+                    "title": "Año",
+                    "selector": "#ano",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "version",
+                    "title": "Versión",
+                    "selector": "#version",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "carroceria-type-box",
+                    "title": "Carrocería",
+                    "selector": "#carroceria-type-box",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "puertas-type-box",
+                    "title": "Puertas",
+                    "selector": "#puertas-type-box",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "Transm",
+                    "title": "Transmisión",
+                    "selector": "#Transm",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "Edicion",
+                    "title": "Edición",
+                    "selector": "#Edicion",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "cPrecio",
+                    "title": "Precio",
+                    "selector": "#cPrecio",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "cilindarda-type-box",
+                    "title": "Cilindrada",
+                    "selector": "#cilindarda-type-box",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "potencia",
+                    "title": "Potencia",
+                    "selector": "#potencia",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "Color",
+                    "title": "Color",
+                    "selector": "#Color",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "Kilom",
+                    "title": "Kilometraje",
+                    "selector": "#Kilom",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "Motor",
+                    "title": "Motor",
+                    "selector": "#Motor",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "techo-type-box",
+                    "title": "Techo",
+                    "selector": "#techo-type-box",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "tipocombustible-type-box",
+                    "title": "Tipo Combustible",
+                    "selector": "#tipocombustible-type-box",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "#tipodireccion-type-box",
+                    "title": "Tipo Dirección",
+                    "selector": "#tipodireccion-type-box",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                }
+            ]
+        },
+        {
+            "category": 5,
+            "title": "Buses",
+            "fields": [
+                {
+                    "id": "Categorias",
+                    "title": "Categoría",
+                    "selector": "#Categorias",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "NumPatente",
+                    "title": "Patente",
+                    "selector": "#NumPatente",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "tipovehiculo-type-box",
+                    "title": "Tipo Vehículo",
+                    "selector": "#tipovehiculo-type-box",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "marca",
+                    "title": "Marca",
+                    "selector": "#marca",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "modelo",
+                    "title": "Modelo",
+                    "selector": "#modelo",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "ano",
+                    "title": "Año",
+                    "selector": "#ano",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "version",
+                    "title": "Versión",
+                    "selector": "#version",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "carroceria-type-box",
+                    "title": "Carrocería",
+                    "selector": "#carroceria-type-box",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "puertas-type-box",
+                    "title": "Puertas",
+                    "selector": "#puertas-type-box",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "Transm",
+                    "title": "Transmisión",
+                    "selector": "#Transm",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "Edicion",
+                    "title": "Edición",
+                    "selector": "#Edicion",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "cPrecio",
+                    "title": "Precio",
+                    "selector": "#cPrecio",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "cilindarda-type-box",
+                    "title": "Cilindrada",
+                    "selector": "#cilindarda-type-box",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "potencia",
+                    "title": "Potencia",
+                    "selector": "#potencia",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "Color",
+                    "title": "Color",
+                    "selector": "#Color",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "Kilom",
+                    "title": "Kilometraje",
+                    "selector": "#Kilom",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "Motor",
+                    "title": "Motor",
+                    "selector": "#Motor",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "techo-type-box",
+                    "title": "Techo",
+                    "selector": "#techo-type-box",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "tipocombustible-type-box",
+                    "title": "Tipo Combustible",
+                    "selector": "#tipocombustible-type-box",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "#tipodireccion-type-box",
+                    "title": "Tipo Dirección",
+                    "selector": "#tipodireccion-type-box",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                }
+            ]
+        },
+        {
+            "category": 6,
+            "title": "Maquinarias",
+            "fields": [
+                {
+                    "id": "Categorias",
+                    "title": "Categoría",
+                    "selector": "#Categorias",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "NumPatente",
+                    "title": "Patente",
+                    "selector": "#NumPatente",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "tipovehiculo-type-box",
+                    "title": "Tipo Vehículo",
+                    "selector": "#tipovehiculo-type-box",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "marca",
+                    "title": "Marca",
+                    "selector": "#marca",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "modelo",
+                    "title": "Modelo",
+                    "selector": "#modelo",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "ano",
+                    "title": "Año",
+                    "selector": "#ano",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "version",
+                    "title": "Versión",
+                    "selector": "#version",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "carroceria-type-box",
+                    "title": "Carrocería",
+                    "selector": "#carroceria-type-box",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "puertas-type-box",
+                    "title": "Puertas",
+                    "selector": "#puertas-type-box",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "Transm",
+                    "title": "Transmisión",
+                    "selector": "#Transm",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "Edicion",
+                    "title": "Edición",
+                    "selector": "#Edicion",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "cPrecio",
+                    "title": "Precio",
+                    "selector": "#cPrecio",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "cilindarda-type-box",
+                    "title": "Cilindrada",
+                    "selector": "#cilindarda-type-box",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "potencia",
+                    "title": "Potencia",
+                    "selector": "#potencia",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "Color",
+                    "title": "Color",
+                    "selector": "#Color",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "Kilom",
+                    "title": "Kilometraje",
+                    "selector": "#Kilom",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "Motor",
+                    "title": "Motor",
+                    "selector": "#Motor",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "techo-type-box",
+                    "title": "Techo",
+                    "selector": "#techo-type-box",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "tipocombustible-type-box",
+                    "title": "Tipo Combustible",
+                    "selector": "#tipocombustible-type-box",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "#tipodireccion-type-box",
+                    "title": "Tipo Dirección",
+                    "selector": "#tipodireccion-type-box",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                }
+            ]
+        },
+        {
+            "category": 7,
+            "title": "Bicicletas",
+            "fields": [
+                {
+                    "id": "Categorias",
+                    "title": "Categoría",
+                    "selector": "#Categorias",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "NumPatente",
+                    "title": "Patente",
+                    "selector": "#NumPatente",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "tipovehiculo-type-box",
+                    "title": "Tipo Vehículo",
+                    "selector": "#tipovehiculo-type-box",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "marca",
+                    "title": "Marca",
+                    "selector": "#marca",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "modelo",
+                    "title": "Modelo",
+                    "selector": "#modelo",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "ano",
+                    "title": "Año",
+                    "selector": "#ano",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "version",
+                    "title": "Versión",
+                    "selector": "#version",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "carroceria-type-box",
+                    "title": "Carrocería",
+                    "selector": "#carroceria-type-box",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "puertas-type-box",
+                    "title": "Puertas",
+                    "selector": "#puertas-type-box",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "Transm",
+                    "title": "Transmisión",
+                    "selector": "#Transm",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "Edicion",
+                    "title": "Edición",
+                    "selector": "#Edicion",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "cPrecio",
+                    "title": "Precio",
+                    "selector": "#cPrecio",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "cilindarda-type-box",
+                    "title": "Cilindrada",
+                    "selector": "#cilindarda-type-box",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "potencia",
+                    "title": "Potencia",
+                    "selector": "#potencia",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "Color",
+                    "title": "Color",
+                    "selector": "#Color",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "Kilom",
+                    "title": "Kilometraje",
+                    "selector": "#Kilom",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "Motor",
+                    "title": "Motor",
+                    "selector": "#Motor",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "techo-type-box",
+                    "title": "Techo",
+                    "selector": "#techo-type-box",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "tipocombustible-type-box",
+                    "title": "Tipo Combustible",
+                    "selector": "#tipocombustible-type-box",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "#tipodireccion-type-box",
+                    "title": "Tipo Dirección",
+                    "selector": "#tipodireccion-type-box",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                }
+            ]
+        },
+        {
+            "category": 8,
+            "title": "Nauticos",
+            "fields": [
+                {
+                    "id": "Categorias",
+                    "title": "Categoría",
+                    "selector": "#Categorias",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "NumPatente",
+                    "title": "Patente",
+                    "selector": "#NumPatente",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "tipovehiculo-type-box",
+                    "title": "Tipo Vehículo",
+                    "selector": "#tipovehiculo-type-box",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "marca",
+                    "title": "Marca",
+                    "selector": "#marca",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "modelo",
+                    "title": "Modelo",
+                    "selector": "#modelo",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "ano",
+                    "title": "Año",
+                    "selector": "#ano",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "version",
+                    "title": "Versión",
+                    "selector": "#version",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "carroceria-type-box",
+                    "title": "Carrocería",
+                    "selector": "#carroceria-type-box",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "puertas-type-box",
+                    "title": "Puertas",
+                    "selector": "#puertas-type-box",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "Transm",
+                    "title": "Transmisión",
+                    "selector": "#Transm",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "Edicion",
+                    "title": "Edición",
+                    "selector": "#Edicion",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "cPrecio",
+                    "title": "Precio",
+                    "selector": "#cPrecio",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "cilindarda-type-box",
+                    "title": "Cilindrada",
+                    "selector": "#cilindarda-type-box",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "potencia",
+                    "title": "Potencia",
+                    "selector": "#potencia",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "Color",
+                    "title": "Color",
+                    "selector": "#Color",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "Kilom",
+                    "title": "Kilometraje",
+                    "selector": "#Kilom",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "Motor",
+                    "title": "Motor",
+                    "selector": "#Motor",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "techo-type-box",
+                    "title": "Techo",
+                    "selector": "#techo-type-box",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "tipocombustible-type-box",
+                    "title": "Tipo Combustible",
+                    "selector": "#tipocombustible-type-box",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "#tipodireccion-type-box",
+                    "title": "Tipo Dirección",
+                    "selector": "#tipodireccion-type-box",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                }
+            ]
+        },
+        {
+            "category": 9,
+            "title": "Aéreos",
+            "fields": [
+                {
+                    "id": "Categorias",
+                    "title": "Categoría",
+                    "selector": "#Categorias",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "NumPatente",
+                    "title": "Patente",
+                    "selector": "#NumPatente",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "tipovehiculo-type-box",
+                    "title": "Tipo Vehículo",
+                    "selector": "#tipovehiculo-type-box",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "marca",
+                    "title": "Marca",
+                    "selector": "#marca",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "modelo",
+                    "title": "Modelo",
+                    "selector": "#modelo",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "ano",
+                    "title": "Año",
+                    "selector": "#ano",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "version",
+                    "title": "Versión",
+                    "selector": "#version",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "carroceria-type-box",
+                    "title": "Carrocería",
+                    "selector": "#carroceria-type-box",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "puertas-type-box",
+                    "title": "Puertas",
+                    "selector": "#puertas-type-box",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "Transm",
+                    "title": "Transmisión",
+                    "selector": "#Transm",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "Edicion",
+                    "title": "Edición",
+                    "selector": "#Edicion",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "cPrecio",
+                    "title": "Precio",
+                    "selector": "#cPrecio",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "cilindarda-type-box",
+                    "title": "Cilindrada",
+                    "selector": "#cilindarda-type-box",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "potencia",
+                    "title": "Potencia",
+                    "selector": "#potencia",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "Color",
+                    "title": "Color",
+                    "selector": "#Color",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "Kilom",
+                    "title": "Kilometraje",
+                    "selector": "#Kilom",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "Motor",
+                    "title": "Motor",
+                    "selector": "#Motor",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "techo-type-box",
+                    "title": "Techo",
+                    "selector": "#techo-type-box",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "tipocombustible-type-box",
+                    "title": "Tipo Combustible",
+                    "selector": "#tipocombustible-type-box",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "#tipodireccion-type-box",
+                    "title": "Tipo Dirección",
+                    "selector": "#tipodireccion-type-box",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                }
+            ]
+        },
+        {
+            "category": 11,
+            "title": "Motorhomes",
+            "fields": [
+                {
+                    "id": "Categorias",
+                    "title": "Categoría",
+                    "selector": "#Categorias",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "NumPatente",
+                    "title": "Patente",
+                    "selector": "#NumPatente",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "tipovehiculo-type-box",
+                    "title": "Tipo Vehículo",
+                    "selector": "#tipovehiculo-type-box",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "marca",
+                    "title": "Marca",
+                    "selector": "#marca",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "modelo",
+                    "title": "Modelo",
+                    "selector": "#modelo",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "ano",
+                    "title": "Año",
+                    "selector": "#ano",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "version",
+                    "title": "Versión",
+                    "selector": "#version",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "carroceria-type-box",
+                    "title": "Carrocería",
+                    "selector": "#carroceria-type-box",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "puertas-type-box",
+                    "title": "Puertas",
+                    "selector": "#puertas-type-box",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "Transm",
+                    "title": "Transmisión",
+                    "selector": "#Transm",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "Edicion",
+                    "title": "Edición",
+                    "selector": "#Edicion",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "cPrecio",
+                    "title": "Precio",
+                    "selector": "#cPrecio",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "cilindarda-type-box",
+                    "title": "Cilindrada",
+                    "selector": "#cilindarda-type-box",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "potencia",
+                    "title": "Potencia",
+                    "selector": "#potencia",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "Color",
+                    "title": "Color",
+                    "selector": "#Color",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "Kilom",
+                    "title": "Kilometraje",
+                    "selector": "#Kilom",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "Motor",
+                    "title": "Motor",
+                    "selector": "#Motor",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "techo-type-box",
+                    "title": "Techo",
+                    "selector": "#techo-type-box",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "tipocombustible-type-box",
+                    "title": "Tipo Combustible",
+                    "selector": "#tipocombustible-type-box",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "#tipodireccion-type-box",
+                    "title": "Tipo Dirección",
+                    "selector": "#tipodireccion-type-box",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                }
+            ]
+        },
+        {
+            "category": 10,
+            "title": "Otros",
+            "fields": [
+                {
+                    "id": "Categorias",
+                    "title": "Categoría",
+                    "selector": "#Categorias",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "NumPatente",
+                    "title": "Patente",
+                    "selector": "#NumPatente",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "tipovehiculo-type-box",
+                    "title": "Tipo Vehículo",
+                    "selector": "#tipovehiculo-type-box",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "marca",
+                    "title": "Marca",
+                    "selector": "#marca",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "modelo",
+                    "title": "Modelo",
+                    "selector": "#modelo",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "ano",
+                    "title": "Año",
+                    "selector": "#ano",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "version",
+                    "title": "Versión",
+                    "selector": "#version",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "carroceria-type-box",
+                    "title": "Carrocería",
+                    "selector": "#carroceria-type-box",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "puertas-type-box",
+                    "title": "Puertas",
+                    "selector": "#puertas-type-box",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "Transm",
+                    "title": "Transmisión",
+                    "selector": "#Transm",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "Edicion",
+                    "title": "Edición",
+                    "selector": "#Edicion",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "cPrecio",
+                    "title": "Precio",
+                    "selector": "#cPrecio",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "cilindarda-type-box",
+                    "title": "Cilindrada",
+                    "selector": "#cilindarda-type-box",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "potencia",
+                    "title": "Potencia",
+                    "selector": "#potencia",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "Color",
+                    "title": "Color",
+                    "selector": "#Color",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "Kilom",
+                    "title": "Kilometraje",
+                    "selector": "#Kilom",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "Motor",
+                    "title": "Motor",
+                    "selector": "#Motor",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "techo-type-box",
+                    "title": "Techo",
+                    "selector": "#techo-type-box",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                },
+                {
+                    "id": "tipocombustible-type-box",
+                    "title": "Tipo Combustible",
+                    "selector": "#tipocombustible-type-box",
+                    "value": "",
+                    "active": true,
+                    "validate": true
+                },
+                {
+                    "id": "#tipodireccion-type-box",
+                    "title": "Tipo Dirección",
+                    "selector": "#tipodireccion-type-box",
+                    "value": "",
+                    "active": true,
+                    "validate": false
+                }
+            ]
+        }
     ]
 }
