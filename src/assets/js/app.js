@@ -2,7 +2,7 @@
 import '../scss/app.scss'; 
 
 //JS LIBS
-import $ from 'jquery'
+import 'jquery-validation'
 import 'chart.js'
 import 'select2'
 import bootstrap from '../scss/addons/bootstrap-sass/assets/javascripts/bootstrap'
