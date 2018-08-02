@@ -2,6 +2,7 @@
 $(document).ready(function () {
     var config = [];
     var json = [];
+    var removeCSS = "panel-danger panel-warning panel-success panel-default";
     $.getJSON(require("../../app.config.json"), function (data) {
         config = data;
         $.fn.getForm(config.forms);
@@ -25,6 +26,7 @@ $(document).ready(function () {
                     $.each(data.fields, (_index, _data) => {
                         messages[_data.id] = _data.message;
                         var tmp = template;
+                        tmp = tmp.split("{{panel}}").join($.fn.getFormat("panel", _data.required));
                         $.each(_data, (field, value) => {
                             tmp = tmp.split("{{" + field + "}}").join($.fn.getFormat(field, value));
                         });
@@ -39,7 +41,11 @@ $(document).ready(function () {
                     $("forms").append(tmpForm);
                     $("#" + data.id).validate({
                         submitHandler: (form) => {
-                            console.log("envia Ajax");
+                            swal(
+                                'Formulario',
+                                'Se han validado todos los campos !',
+                                'success'
+                            );
                         },
                         "messages": messages
                     });
@@ -50,7 +56,12 @@ $(document).ready(function () {
 
 
     $.fn.getFormat = (field, value) => {
-        return value;
+        switch (field) {
+            case "panel":
+                return value == "required" ? "danger" : "success";
+            default:
+                return value;
+        }
     };
 
     $.fn.getSelect = (forms) => {
@@ -64,17 +75,21 @@ $(document).ready(function () {
             return false;
         }
 
-        $.each(config.forms[0].fields, (index, data)=>{
-            $("[name='" + data.name + "']").attr("required", data.required).closest("div").show();
+        $.each(config.forms[0].fields, (index, data) => {
+            $("[name='" + data.name + "']").attr("required", data.required).closest("div.form-group").show();
+            $("[name='" + data.name + "']").attr("required", data.required).closest("div.panel").removeClass(removeCSS).addClass("panel-danger");
         });
 
         $.each(fields[0].fields, (index, data) => {
-            $("[name='" + data.name + "']").closest("div")[data.show]();
-            if(data.required == "required"){
+            $("[name='" + data.name + "']").closest("div.form-group")[data.show]();
+            if (data.required == "required") {
                 $("[name='" + data.name + "']").attr("required", data.required);
-            }else{
+                $("[name='" + data.name + "']").closest("div.panel").removeClass(removeCSS).addClass("panel-danger");
+            } else {
                 $("[name='" + data.name + "']").removeAttr("required");
+                $("[name='" + data.name + "']").closest("div.panel").removeClass(removeCSS).addClass(data.show == "show" ? "panel-success" : "panel-warning");
             }
+
         });
     };
 

@@ -1,6 +1,12 @@
-<div class="form-group pmd-textfield col-lg-3">
-  <label for="{{id}}" class="control-label">
-    {{title}}
-  </label>
-  <input type="{{type}}" value="{{value}}" id="{{id}}" name="{{id}}" class="form-control" {{required}} />
+<div class="form-group pmd-textfield col-xs-3 col-lg-3">
+  <div class="panel panel-{{panel}}">
+    <div class="panel-heading">
+      <label for="{{id}}" class="control-label">
+        {{title}}
+      </label>
+    </div>
+    <div class="panel-body">
+      <input type="{{type}}" value="{{value}}" id="{{id}}" name="{{id}}" class="form-control" {{required}} />
+    </div>
+  </div>
 </div>

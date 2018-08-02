@@ -2,10 +2,11 @@
 import '../scss/app.scss'; 
 
 //JS LIBS
-import 'jquery-validation'
-import 'chart.js'
-import 'select2'
-import bootstrap from '../scss/addons/bootstrap-sass/assets/javascripts/bootstrap'
+import 'jquery-validation';
+import 'chart.js';
+import 'select2';
+import bootstrap from '../scss/addons/bootstrap-sass/assets/javascripts/bootstrap';
+window.swal = require('sweetalert2');
 window._ = require('underscore');
 window.numeral = require('numeral');
 window.moment = require('moment');

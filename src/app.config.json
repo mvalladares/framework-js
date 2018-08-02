@@ -330,24 +330,626 @@
                     "name": "Categorias",
                     "show": "show",
                     "required": "required"
+                },
+                {
+                    "id": "NumPatente",
+                    "name": "NumPatente",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "tipovehiculo-type-box",
+                    "name": "tipovehiculo-type-box",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "marca",
+                    "name": "marca",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "modelo",
+                    "name": "modelo",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "ano",
+                    "name": "ano",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "version",
+                    "name": "version",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "carroceria-type-box",
+                    "name": "carroceria-type-box",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "puertas-type-box",
+                    "name": "puertas-type-box",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "Transm",
+                    "name": "Transm",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "Edicion",
+                    "name": "Edicion",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "cPrecio",
+                    "name": "cPrecio",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "cilindarda-type-box",
+                    "name": "cilindarda-type-box",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "potencia",
+                    "name": "potencia",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "Color",
+                    "name": "Color",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "Kilom",
+                    "name": "Kilom",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "Motor",
+                    "name": "Motor",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "techo-type-box",
+                    "name": "techo-type-box",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "tipocombustible-type-box",
+                    "name": "tipocombustible-type-box",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "tipodireccion-type-box",
+                    "name": "tipodireccion-type-box",
+                    "show": "show",
+                    "required": ""
                 }
             ]
         },
         {
             "id": 2,
-            "title": "Motos"
+            "title": "Motos",
+            "fields": [
+                {
+                    "id": "Categorias",
+                    "name": "Categorias",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "NumPatente",
+                    "name": "NumPatente",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "tipovehiculo-type-box",
+                    "name": "tipovehiculo-type-box",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "marca",
+                    "name": "marca",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "modelo",
+                    "name": "modelo",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "ano",
+                    "name": "ano",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "version",
+                    "name": "version",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "carroceria-type-box",
+                    "name": "carroceria-type-box",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "puertas-type-box",
+                    "name": "puertas-type-box",
+                    "show": "hide",
+                    "required": ""
+                },
+                {
+                    "id": "Transm",
+                    "name": "Transm",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "Edicion",
+                    "name": "Edicion",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "cPrecio",
+                    "name": "cPrecio",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "cilindarda-type-box",
+                    "name": "cilindarda-type-box",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "potencia",
+                    "name": "potencia",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "Color",
+                    "name": "Color",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "Kilom",
+                    "name": "Kilom",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "Motor",
+                    "name": "Motor",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "techo-type-box",
+                    "name": "techo-type-box",
+                    "show": "hide",
+                    "required": ""
+                },
+                {
+                    "id": "tipocombustible-type-box",
+                    "name": "tipocombustible-type-box",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "tipodireccion-type-box",
+                    "name": "tipodireccion-type-box",
+                    "show": "show",
+                    "required": ""
+                }
+            ]
         },
         {
             "id": 4,
-            "title": "Camiones"
+            "title": "Camiones",
+            "fields": [
+                {
+                    "id": "Categorias",
+                    "name": "Categorias",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "NumPatente",
+                    "name": "NumPatente",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "tipovehiculo-type-box",
+                    "name": "tipovehiculo-type-box",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "marca",
+                    "name": "marca",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "modelo",
+                    "name": "modelo",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "ano",
+                    "name": "ano",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "version",
+                    "name": "version",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "carroceria-type-box",
+                    "name": "carroceria-type-box",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "puertas-type-box",
+                    "name": "puertas-type-box",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "Transm",
+                    "name": "Transm",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "Edicion",
+                    "name": "Edicion",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "cPrecio",
+                    "name": "cPrecio",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "cilindarda-type-box",
+                    "name": "cilindarda-type-box",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "potencia",
+                    "name": "potencia",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "Color",
+                    "name": "Color",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "Kilom",
+                    "name": "Kilom",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "Motor",
+                    "name": "Motor",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "techo-type-box",
+                    "name": "techo-type-box",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "tipocombustible-type-box",
+                    "name": "tipocombustible-type-box",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "tipodireccion-type-box",
+                    "name": "tipodireccion-type-box",
+                    "show": "show",
+                    "required": ""
+                }
+            ]
         },
         {
             "id": 5,
-            "title": "Buses"
+            "title": "Buses",
+            "fields": [
+                {
+                    "id": "Categorias",
+                    "name": "Categorias",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "NumPatente",
+                    "name": "NumPatente",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "tipovehiculo-type-box",
+                    "name": "tipovehiculo-type-box",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "marca",
+                    "name": "marca",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "modelo",
+                    "name": "modelo",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "ano",
+                    "name": "ano",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "version",
+                    "name": "version",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "carroceria-type-box",
+                    "name": "carroceria-type-box",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "puertas-type-box",
+                    "name": "puertas-type-box",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "Transm",
+                    "name": "Transm",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "Edicion",
+                    "name": "Edicion",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "cPrecio",
+                    "name": "cPrecio",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "cilindarda-type-box",
+                    "name": "cilindarda-type-box",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "potencia",
+                    "name": "potencia",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "Color",
+                    "name": "Color",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "Kilom",
+                    "name": "Kilom",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "Motor",
+                    "name": "Motor",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "techo-type-box",
+                    "name": "techo-type-box",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "tipocombustible-type-box",
+                    "name": "tipocombustible-type-box",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "tipodireccion-type-box",
+                    "name": "tipodireccion-type-box",
+                    "show": "show",
+                    "required": ""
+                }
+            ]
         },
         {
             "id": 6,
-            "title": "Maquinarias"
+            "title": "Maquinarias",
+            "fields": [
+                {
+                    "id": "Categorias",
+                    "name": "Categorias",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "NumPatente",
+                    "name": "NumPatente",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "tipovehiculo-type-box",
+                    "name": "tipovehiculo-type-box",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "marca",
+                    "name": "marca",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "modelo",
+                    "name": "modelo",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "ano",
+                    "name": "ano",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "version",
+                    "name": "version",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "carroceria-type-box",
+                    "name": "carroceria-type-box",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "puertas-type-box",
+                    "name": "puertas-type-box",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "Transm",
+                    "name": "Transm",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "Edicion",
+                    "name": "Edicion",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "cPrecio",
+                    "name": "cPrecio",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "cilindarda-type-box",
+                    "name": "cilindarda-type-box",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "potencia",
+                    "name": "potencia",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "Color",
+                    "name": "Color",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "Kilom",
+                    "name": "Kilom",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "Motor",
+                    "name": "Motor",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "techo-type-box",
+                    "name": "techo-type-box",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "tipocombustible-type-box",
+                    "name": "tipocombustible-type-box",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "tipodireccion-type-box",
+                    "name": "tipodireccion-type-box",
+                    "show": "show",
+                    "required": ""
+                }
+            ]
         },
         {
             "id": 7,
@@ -429,19 +1031,507 @@
         },
         {
             "id": 8,
-            "title": "Nauticos"
+            "title": "Nauticos",
+            "fields": [
+                {
+                    "id": "Categorias",
+                    "name": "Categorias",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "NumPatente",
+                    "name": "NumPatente",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "tipovehiculo-type-box",
+                    "name": "tipovehiculo-type-box",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "marca",
+                    "name": "marca",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "modelo",
+                    "name": "modelo",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "ano",
+                    "name": "ano",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "version",
+                    "name": "version",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "carroceria-type-box",
+                    "name": "carroceria-type-box",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "puertas-type-box",
+                    "name": "puertas-type-box",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "Transm",
+                    "name": "Transm",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "Edicion",
+                    "name": "Edicion",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "cPrecio",
+                    "name": "cPrecio",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "cilindarda-type-box",
+                    "name": "cilindarda-type-box",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "potencia",
+                    "name": "potencia",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "Color",
+                    "name": "Color",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "Kilom",
+                    "name": "Kilom",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "Motor",
+                    "name": "Motor",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "techo-type-box",
+                    "name": "techo-type-box",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "tipocombustible-type-box",
+                    "name": "tipocombustible-type-box",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "tipodireccion-type-box",
+                    "name": "tipodireccion-type-box",
+                    "show": "show",
+                    "required": ""
+                }
+            ]
         },
         {
             "id": 9,
-            "title": "Aéreos"
+            "title": "Aéreos",
+            "fields": [
+                {
+                    "id": "Categorias",
+                    "name": "Categorias",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "NumPatente",
+                    "name": "NumPatente",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "tipovehiculo-type-box",
+                    "name": "tipovehiculo-type-box",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "marca",
+                    "name": "marca",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "modelo",
+                    "name": "modelo",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "ano",
+                    "name": "ano",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "version",
+                    "name": "version",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "carroceria-type-box",
+                    "name": "carroceria-type-box",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "puertas-type-box",
+                    "name": "puertas-type-box",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "Transm",
+                    "name": "Transm",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "Edicion",
+                    "name": "Edicion",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "cPrecio",
+                    "name": "cPrecio",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "cilindarda-type-box",
+                    "name": "cilindarda-type-box",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "potencia",
+                    "name": "potencia",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "Color",
+                    "name": "Color",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "Kilom",
+                    "name": "Kilom",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "Motor",
+                    "name": "Motor",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "techo-type-box",
+                    "name": "techo-type-box",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "tipocombustible-type-box",
+                    "name": "tipocombustible-type-box",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "tipodireccion-type-box",
+                    "name": "tipodireccion-type-box",
+                    "show": "show",
+                    "required": ""
+                }
+            ]
         },
         {
             "id": 11,
-            "title": "Motorhomes"
+            "title": "Motorhomes",
+            "fields": [
+                {
+                    "id": "Categorias",
+                    "name": "Categorias",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "NumPatente",
+                    "name": "NumPatente",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "tipovehiculo-type-box",
+                    "name": "tipovehiculo-type-box",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "marca",
+                    "name": "marca",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "modelo",
+                    "name": "modelo",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "ano",
+                    "name": "ano",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "version",
+                    "name": "version",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "carroceria-type-box",
+                    "name": "carroceria-type-box",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "puertas-type-box",
+                    "name": "puertas-type-box",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "Transm",
+                    "name": "Transm",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "Edicion",
+                    "name": "Edicion",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "cPrecio",
+                    "name": "cPrecio",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "cilindarda-type-box",
+                    "name": "cilindarda-type-box",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "potencia",
+                    "name": "potencia",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "Color",
+                    "name": "Color",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "Kilom",
+                    "name": "Kilom",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "Motor",
+                    "name": "Motor",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "techo-type-box",
+                    "name": "techo-type-box",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "tipocombustible-type-box",
+                    "name": "tipocombustible-type-box",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "tipodireccion-type-box",
+                    "name": "tipodireccion-type-box",
+                    "show": "show",
+                    "required": ""
+                }
+            ]
         },
         {
             "id": 10,
-            "title": "Otros"
+            "title": "Otros",
+            "fields": [
+                {
+                    "id": "Categorias",
+                    "name": "Categorias",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "NumPatente",
+                    "name": "NumPatente",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "tipovehiculo-type-box",
+                    "name": "tipovehiculo-type-box",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "marca",
+                    "name": "marca",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "modelo",
+                    "name": "modelo",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "ano",
+                    "name": "ano",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "version",
+                    "name": "version",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "carroceria-type-box",
+                    "name": "carroceria-type-box",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "puertas-type-box",
+                    "name": "puertas-type-box",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "Transm",
+                    "name": "Transm",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "Edicion",
+                    "name": "Edicion",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "cPrecio",
+                    "name": "cPrecio",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "cilindarda-type-box",
+                    "name": "cilindarda-type-box",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "potencia",
+                    "name": "potencia",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "Color",
+                    "name": "Color",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "Kilom",
+                    "name": "Kilom",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "Motor",
+                    "name": "Motor",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "techo-type-box",
+                    "name": "techo-type-box",
+                    "show": "show",
+                    "required": ""
+                },
+                {
+                    "id": "tipocombustible-type-box",
+                    "name": "tipocombustible-type-box",
+                    "show": "show",
+                    "required": "required"
+                },
+                {
+                    "id": "tipodireccion-type-box",
+                    "name": "tipodireccion-type-box",
+                    "show": "show",
+                    "required": ""
+                }
+            ]
         }
     ]
 }

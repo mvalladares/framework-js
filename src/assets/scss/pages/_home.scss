@@ -18,3 +18,10 @@
     width: 1360px;
 }
 }
+label.error{
+    display: none !important;
+}
+.panel-danger label.error{
+    color:#c51162 !important;
+    display: block !important;
+}
