@@ -1,4 +1,4 @@
-# Geeksmotion Webpack 4 boilerplate
+# -------
 Ambiente de desarrollo para diseño de sitios estáticos. Este boilerplate utiliza Webpack 4 para automatizar procesos. Contiene preconfigurados: Bootstrap 3, JQuery, Font Awesome, eslint (airbnb), babel, scss, entre otros.
 
 ## Instrucciones
